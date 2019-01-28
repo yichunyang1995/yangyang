@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAK;EACF,KAAK,EAAC,IAAI;EACV,KAAK,EAAC,OAAO;;AACd,OAAC;EAEI,YAAK,EAAC,MAAM;;;EAGZ,YAAK,EAAC,GAAG;;AACd,WAAK;EACF,KAAK,EAAC,KAAK;;;AAEhB,KAAK;EAEA,SAAI,EAAC,GAAG;EACR,WAAM,EAAC,IAAI;EACb,KAAK,EAAC,IAAI",
+"sources": ["../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/expanded.sass"],
+"names": [],
+"file": "expanded.css"
+}

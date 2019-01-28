@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,QAAS;EACP,QAAQ,EAAE,UAAU;;;ACCtB,QAAS;EACP,KAAK,EAAE,UAAU;EARjB,WAAW,EAAE,UAAU;EAUvB,cAAc,EAAE,UAAgB;EDZhC,cAAc,EAAE,UAAU;ECe1B,iBAAiB,EAAE,UAAmB",
+"sources": ["../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/_filename_fn_import.scss","../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/filename_fn.scss"],
+"names": [],
+"file": "filename_fn.css"
+}

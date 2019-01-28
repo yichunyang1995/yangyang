@@ -1,0 +1,407 @@
+            @charset "utf-8";
+            body {
+                color: #666;
+                font-family: "microsoft yahei";
+            }
+            
+            $box_width:1200px;
+            $box_main_width:100%;
+            $height:100px;
+            $box_color:#fff;
+            @mixin box($w:1px, $s:solid, $c:#333) {
+                border: $w $s $c;
+            }
+            
+            %main_width {
+                width: $box_main_width;
+                height: $height;
+                background: $box_color;
+            }
+            
+            %box_width {
+                width: $box_width;
+                height: $height;
+                background: $box_color;
+                // margin: 10px auto 0;
+            }
+            
+            %ullist {
+                list-style: none;
+            }
+            
+            %astyle {
+                text-decoration: none;
+            }
+            
+            .top {
+                @extend %main_width;
+                background-color: #f7f7f7;
+                padding-top: 6px;
+                height: 29px;
+                position: relative;
+                z-index: 902;
+                border-bottom: 1px solid #ededed;
+                font-size: 12px;
+            }
+            
+            .header_main {
+                @extend %main_width;
+                height: 80px;
+                padding-top: 12px;
+                padding-bottom: 7px;
+                position: relative;
+                margin: 0 auto;
+                .header_logo {
+                    float: left;
+                    display: block;
+                    width: 600px;
+                    height: 99px;
+                    top: 0px;
+                    position: absolute;
+                    left: 0px;
+                    background: url(http://i0.ulecdn.com/ule/header/images/logo.png) no-repeat center;
+                }
+                .step {
+                    width: 570px;
+                    height: 35px;
+                    float: right;
+                    margin-top: 20px;
+                    margin-right: 300px;
+                    background: url(http://i0.ulecdn.com/ule/header/images/cart_tit_new.png?v201402101030) no-repeat 0 0;
+                }
+            }
+            
+            .empty-cart {
+                width: 950px;
+                margin: 0 auto;
+                height: 98px;
+                padding: 80px 0 120px;
+                color: #333;
+            }
+            
+            .empty-cart-msg {
+                height: 98px;
+                line-height: 20px;
+                font-size: 14px;
+                padding-left: 341px;
+                padding-top: 25px;
+                color: #555;
+            }
+            
+            .empty-cart-msg a {
+                display: block;
+                color: #fff;
+                height: 40px;
+                width: 150px;
+                background-color: red;
+                text-align: center;
+                line-height: 40px;
+                margin-top: 30px;
+                text-decoration: none;
+            }
+            
+            .main {
+                @extend %main_width;
+                height: 800px;
+                border-top: 4px solid #a71b1c;
+                .content {
+                    width: 950px;
+                    background-color: #fff;
+                    margin: 0 auto;
+                    height: 100%;
+                    .section1 {
+                        width: 100%;
+                        height: 36px;
+                        padding-top: 10px;
+                        text-align: center;
+                        line-height: 36px;
+                        border-bottom: 1px solid #f5f5f5;
+                        h2 {
+                            float: left;
+                            margin-left: 20px;
+                            color: #000;
+                        }
+                        a {
+                            display: block;
+                            float: right;
+                            width: 90px;
+                            height: 36px;
+                            padding-left: 8px;
+                            font-size: 12px;
+                            text-decoration: none;
+                            background: url(http://i0.ulecdn.com/ule/cart/v3/images/ico_myfavor.png) no-repeat left center;
+                        }
+                    }
+                    .section2 {
+                        width: 100%;
+                        height: 24px;
+                        padding: 8px 0 8px 0;
+                        .p1 {
+                            margin-left: 35px;
+                            width: 82px;
+                            height: 24px;
+                            background: url(http://i0.ulecdn.com/i/search/2016/0316/zjl_icon_001.png) no-repeat;
+                            background-position: 0 -75px;
+                        }
+                    }
+                    .section3 {
+                        width: 100%;
+                        height: 34px;
+                        background-color: #eee;
+                        .list {
+                            width: 930px;
+                            height: 100%;
+                            padding: 0 10px 0 10px;
+                            li {
+                                height: 100%;
+                                line-height: 34px;
+                                text-align: center;
+                                float: left;
+                                font-size: 12px;
+                            }
+                            .list_1 {
+                                width: 30px;
+                            }
+                            .list_2 {
+                                width: 48px;
+                            }
+                            .list_3 {
+                                width: 450px;
+                                text-align: right!important;
+                            }
+                            .list_4 {
+                                width: 200px;
+                            }
+                            .list_5 {
+                                width: 48px;
+                            }
+                            .list_6 {
+                                width: 150px;
+                            }
+                        }
+                    }
+                    .section4 {
+                        width: 100%;
+                        height: 34px;
+                        .list {
+                            width: 930px;
+                            height: 34px;
+                            padding: 0 10px 0 10px;
+                            li {
+                                height: 100%;
+                                line-height: 34px;
+                                text-align: center;
+                                float: left;
+                                font-size: 12px;
+                            }
+                            .list_1 {
+                                width: 30px;
+                            }
+                            .list_2 {
+                                width: 80px;
+                                padding-left: 21px;
+                                background: url(http://i0.ulecdn.com/ule/cart/v3/images/icons.png) no-repeat 0 9px;
+                                font-size: 14px !important;
+                                a {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                    .section5 {
+                        width: 100%;
+                        height: 110px;
+                        border-top: 1px solid #ccc;
+                        border-bottom: 1px solid #ccc;
+                        .list {
+                            width: 930px;
+                            height: 80px;
+                            padding: 15px 10px 15px 10px;
+                            li {
+                                height: 100%;
+                                line-height: 22px;
+                                text-align: center;
+                                float: left;
+                                font-size: 12px;
+                            }
+                            .list_1 {
+                                width: 30px;
+                            }
+                            .list_2 {
+                                width: 80px;
+                                img {
+                                    display: block;
+                                    height: 80px;
+                                    width: 80px;
+                                }
+                            }
+                            .list_3 {
+                                width: 220px;
+                                a {
+                                    text-decoration: none;
+                                    color: #555;
+                                }
+                            }
+                            .list_4 {
+                                width: 140px;
+                                color: #aaa;
+                                text-align: left !important;
+                            }
+                            .list_5 {
+                                width: 55px;
+                                text-align: right !important;
+                            }
+                            .list_6 {
+                                width: 150px;
+                                text-align: right !important;
+                                a {
+                                    display: inline-block;
+                                    height: 20px;
+                                    width: 20px;
+                                    line-height: 20px;
+                                    text-align: center;
+                                    float: right;
+                                    text-decoration: none;
+                                    color: #333;
+                                    border: 1px solid #ccc;
+                                }
+                                input {
+                                    width: 35px;
+                                    height: 16px;
+                                    float: right;
+                                    text-align: center;
+                                }
+                            }
+                            .list_7 {
+                                width: 98px;
+                                text-align: right !important;
+                                color: #a71b1c;
+                            }
+                            .list_8 {
+                                width: 90px;
+                                text-align: right !important;
+                                a {
+                                    text-decoration: none;
+                                }
+                                .collect {
+                                    display: block;
+                                }
+                                .del {
+                                    color: #555;
+                                }
+                            }
+                        }
+                    }
+                    .section6 {
+                        width: 100%;
+                        height: 34px;
+                        .list {
+                            width: 930px;
+                            height: 24px;
+                            padding: 10px 10px 0 10px;
+                            li {
+                                height: 100%;
+                                line-height: 24px;
+                                text-align: center;
+                                float: left;
+                                font-size: 12px;
+                            }
+                            .list_1 {
+                                width: 30px;
+                            }
+                            .list_2 {
+                                width: 30px;
+                                line-height: 24px !important;
+                                color: #555;
+                            }
+                            a {
+                                font-size: 12px;
+                                text-decoration: none;
+                                text-align: center;
+                                line-height: 24px;
+                                color: #555;
+                                border-radius: 5px;
+                                height: 22px;
+                                padding: 0 18px 0 40px;
+                                border: 1px solid #ccc;
+                                margin-left: 20px;
+                                float: left;
+                            }
+                            .a1 {
+                                width: 48px;
+                                background: url(http://i0.ulecdn.com/ule/cart/v3/images/icons.png) no-repeat 19px -77px;
+                            }
+                            .a2 {
+                                width: 60px;
+                                background: url(http://i0.ulecdn.com/ule/cart/v3/images/icons.png) no-repeat 19px -109px;
+                            }
+                        }
+                    }
+                    .section7 {
+                        margin-top: 35px;
+                        width: 100%;
+                        height: 60px;
+                        background-color: #eee;
+                        .list {
+                            width: 930px;
+                            height: 100%;
+                            padding: 0 10px 0 10px;
+                            li {
+                                height: 100%;
+                                line-height: 30px;
+                                text-align: center;
+                                float: left;
+                                font-size: 12px;
+                            }
+                            .list_1 {
+                                width: 100px;
+                            }
+                            .list_2 {
+                                width: 100px;
+                            }
+                            .list_3 {
+                                width: 100px;
+                            }
+                            .list_4 {
+                                width: 100px;
+                            }
+                            .list_5 {
+                                line-height: 60px;
+                                font-size: 30px;
+                                color: #a71b1c;
+                            }
+                            a {
+                                height: 38px;
+                                text-decoration: none;
+                                border-radius: 5px;
+                                float: right;
+                                margin-top: 10px;
+                                line-height: 38px;
+                                text-align: center;
+                            }
+                            .settle {
+                                width: 132px;
+                                color: #eee;
+                                background-color: red;
+                                opacity: .5;
+                                display: inline-block;
+                                margin-left: 10px;
+                            }
+                            .shopping {
+                                width: 100px;
+                                background-color: #fff;
+                                color: #555;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .footer {
+                height: 300px;
+                @extend %main_width;
+                height: 437px;
+                background-color: #fff;
+                font-size: 12px;
+                padding: 20px 0;
+            }

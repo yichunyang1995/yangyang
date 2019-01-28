@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,EAAE;EACC,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,KAAK;EACb,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,CAAC;EAEP,iBAAM,EAAE,SAAS;EAChB,gBAAK,EAAC,IAAI;;AACb,wBAAkB;EAChB,KAAK,EAAE,KAAK;;AACd,UAAO;EACL,KAAK,EAAE,GAAG;EACT,gBAAgB,EAAC,KAAK;;AACzB,QAAK;EACH,IAAI,EAAE,CAAK;EACX,EAAE,EAAG,CAAK",
+"sources": ["../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/alt.sass"],
+"names": [],
+"file": "alt.css"
+}

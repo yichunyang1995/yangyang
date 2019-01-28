@@ -1,0 +1,125 @@
+@charset "utf-8";
+body {
+    color: #666;
+    background-color: #fff;
+    font-family: "microsoft yahei";
+}
+
+$box_width:1200px;
+$box_main_width:100%;
+$height:100px;
+$box_color:#fff;
+@mixin box($w:1px, $s:solid, $c:#333) {
+    border: $w $s $c;
+}
+
+%main_width {
+    width: $box_main_width;
+    height: $height;
+    background: $box_color;
+}
+
+%box_width {
+    width: $box_width;
+    height: $height;
+    background: $box_color;
+    // margin: 10px auto 0;
+}
+
+%ullist {
+    list-style: none;
+}
+
+%astyle {
+    text-decoration: none;
+}
+
+.top {
+    @extend %main_width;
+    background-color: #f7f7f7;
+    padding-top: 6px;
+    height: 29px;
+    position: relative;
+    z-index: 902;
+    border-bottom: 1px solid #ededed;
+    font-size: 12px;
+}
+
+.header_main {
+    @extend %main_width;
+    height: 80px;
+    padding-top: 12px;
+    padding-bottom: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    // background-color: #fff;
+    .header_logo {
+        display: block;
+        width: 1200px;
+        height: 99px;
+        top: 0px;
+        position: absolute;
+        left: -300px;
+        float: left;
+        // overflow: hidden;
+        background: url(http://i0.ulecdn.com/ule/header/images/logo.png) no-repeat center;
+    }
+}
+
+.content {
+    border-top: 4px solid #a71b1c;
+    display: block;
+    width: 100%;
+    height: 530px;
+    background-color: #f7f7f7;
+    padding: 20px 0 20px 0;
+    .biaodan {
+        width: 920px;
+        height: 500px;
+        padding: 30px 15px 0 15px;
+        margin: 0 auto;
+        background-color: #fff;
+        .title {
+            width: 100%;
+            height: 47px;
+            background: url(https://i0.ulecdn.com/i/login/2016/0808/title_tip.jpg) no-repeat center right;
+            border-bottom: 1px solid #ccc;
+            .user {
+                width: 138px;
+                height: 46px;
+                margin-left: 30px;
+                border: 1px solid #ccc;
+                border-bottom: none;
+                text-align: center;
+                line-height: 46px;
+                color: #000;
+            }
+        }
+        fieldset {
+            width: 700px;
+            margin: 0 auto;
+            p {
+                margin-top: 30px;
+            }
+            .fwidth {
+                width: 70px;
+                float: left;
+                font-size: 14px;
+                color: #ccc;
+                text-align: center;
+                height: 35px;
+                line-height: 35px;
+            }
+        }
+    }
+}
+
+.footer {
+    height: 300px;
+    @extend %main_width;
+    height: 437px;
+    background-color: #fff;
+    font-size: 12px;
+    padding: 20px 0;
+}

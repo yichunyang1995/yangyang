@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,SAAI;EACD,IAAI,EAAC,KAAK;EACV,UAAU,EAAC,IAAI;;AAElB,UAAK;EACF,KAAK,EAAC,KAAK;EACX,MAAM,EAAC,GAAG;;AACX,kBAAO;EACJ,MAAM,EAAC,KAAK;;AACb,qBAAE;EACC,SAAS,EAAC,IAAI;EACd,KAAK,EAAK,IAAI;;AAIjB,mDAAY;EACT,KAAK,EAAC,KAAK;;AACd,oDAAa;EACV,KAAK,EAAC,KAAK;;AAChB,yCAAiB;EACd,UAAU,EAAC,KAAK",
+"sources": ["../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/basic.sass"],
+"names": [],
+"file": "nested_import.css"
+}

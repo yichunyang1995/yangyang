@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAQ;EAAC,KAAK,EAAE,UAAU;;;ACE1B,IAAK;EAAC,KAAK,EAAE,UAAU",
+"sources": ["../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/_cached_import_option_partial.scss","../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/cached_import_option.scss"],
+"names": [],
+"file": "cached_import_option.css"
+}

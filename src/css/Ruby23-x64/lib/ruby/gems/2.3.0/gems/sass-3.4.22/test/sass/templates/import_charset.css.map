@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAGQ,oBAAS;AAHjB,IAAI;EACF,CAAC,EAAE,CAAC;;;ACCN,IAAI;EACF,CAAC,EAAE,CAAC",
+"sources": ["../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/import_charset.sass","../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/_imported_charset_ibm866.sass"],
+"names": [],
+"file": "import_charset.css"
+}

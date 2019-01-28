@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAI;EACD,IAAI,EAAC,KAAK;EACV,UAAU,EAAC,IAAI;;;AAElB,KAAK;EACF,KAAK,EAAC,KAAK;EACX,MAAM,EAAC,GAAG;;AACX,aAAO;EACJ,MAAM,EAAC,KAAK;;AACb,gBAAE;EACC,SAAS,EAAC,IAAI;EACd,KAAK,EAAK,IAAI;;;AAIjB,8CAAY;EACT,KAAK,EAAC,KAAK;;AACd,+CAAa;EACV,KAAK,EAAC,KAAK;;AAChB,oCAAiB;EACd,UAAU,EAAC,KAAK",
+"sources": ["../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/more_templates/more1.sass"],
+"names": [],
+"file": "more1.css"
+}

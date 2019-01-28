@@ -1,0 +1,301 @@
+@charset "utf-8";
+body {
+    color: #666;
+    background-color: #f7f7f7;
+    font-family: "microsoft yahei";
+}
+
+$box_width:1200px;
+$box_main_width:100%;
+$height:100px;
+$box_color:#fff;
+@mixin box($w:1px, $s:solid, $c:#333) {
+    border: $w $s $c;
+}
+
+%main_width {
+    width: $box_main_width;
+    height: $height;
+    background: $box_color;
+}
+
+%box_width {
+    width: $box_width;
+    height: $height;
+    background: $box_color;
+    // margin: 10px auto 0;
+}
+
+%ullist {
+    list-style: none;
+}
+
+%astyle {
+    text-decoration: none;
+}
+
+.top {
+    @extend %main_width;
+    background-color: #f7f7f7;
+    padding-top: 6px;
+    height: 29px;
+    position: relative;
+    z-index: 902;
+    border-bottom: 1px solid #ededed;
+    font-size: 12px;
+}
+
+.header_main {
+    @extend %main_width;
+    height: 80px;
+    padding-top: 12px;
+    padding-bottom: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    // background-color: #fff;
+    .header_logo {
+        display: block;
+        width: 1200px;
+        height: 99px;
+        top: 0px;
+        position: absolute;
+        left: -300px;
+        float: left;
+        // overflow: hidden;
+        background: url(http://i0.ulecdn.com/ule/header/images/logo.png) no-repeat center;
+    }
+}
+
+.ad {
+    width: 100%;
+    height: 495px;
+    position: relative;
+    border-top: 4px solid #a71b1c;
+    .a1 {
+        display: block;
+        height: 100%;
+        background: url(https://pic1.ulecdn.com/item/user_0102/desc20181115/33b4fc26f1f46b8b_-1x-1.png) center center no-repeat;
+    }
+    .login {
+        display: block;
+        width: 330px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        position: absolute;
+        top: 10px;
+        right: 20%;
+        z-index: 3;
+        h1 {
+            color: #000;
+            margin: 20px 0 26px 20px;
+        }
+        .logo {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 70px;
+            height: 70px;
+            background: url(https://i0.ulecdn.com/i/login/2015/0925/icon_zjl_001.png) --90px 0 no-repeat;
+        }
+        .content {
+            height: 62px;
+            width: 100%;
+            color: #666;
+            position: relative;
+            i {
+                background: url(https://i0.ulecdn.com/i/login/2015/0415/login_icons.png) no-repeat;
+                background-position: 0 -85px;
+                width: 23px;
+                height: 38px;
+                position: absolute;
+                left: 21px;
+                top: 0;
+            }
+            .input1 {
+                width: 277px;
+                height: 18px;
+                line-height: 18px;
+                padding: 10px 0 10px 23px;
+                border: 1px solid #cacaca;
+                font-size: 14px;
+                margin: 0 0 0 15px;
+                float: left;
+                background: none;
+            }
+        }
+        .pass {
+            height: 60px;
+            position: relative;
+            color: #666;
+            i {
+                position: absolute;
+                display: block;
+                height: 38px;
+                width: 23px;
+                left: 21px;
+                top: 0;
+                background: url(https://i0.ulecdn.com/i/login/2015/0415/login_icons.png) no-repeat;
+                background-position: 0 -117px;
+            }
+            .input2 {
+                width: 277px;
+                height: 18px;
+                line-height: 18px;
+                padding: 10px 0 10px 23px;
+                border: 1px solid #cacaca;
+                font-size: 14px;
+                margin: 0 0 0 15px;
+            }
+        }
+        .checked {
+            padding: 0 0 20px 12px;
+            position: relative;
+            width: 309px;
+            float: left;
+            .input3 {
+                margin: 3px 3px 3px 4px;
+                float: left;
+            }
+            label {
+                color: #656567;
+                line-height: 20px;
+                font-size: 12px;
+                float: left;
+            }
+            i {
+                height: 12px;
+                width: 12px;
+                text-indent: -999em;
+                overflow: hidden;
+                background: url(https://i0.ulecdn.com/i/login/2013/0529/icons.png) no-repeat -29px -36px;
+                float: left;
+                margin: 4px 0 0 4px;
+                cursor: pointer;
+            }
+            .a2 {
+                float: right;
+                font-size: 12px;
+                text-decoration: none;
+                background: none;
+            }
+        }
+        .input4 {
+            background-color: #d10208;
+            height: 38px;
+            width: 309px;
+            border: 2px solid #d10208;
+            margin-left: 10px;
+            color: #fff;
+            font-size: 18px;
+        }
+        .span {
+            float: right;
+            font-size: 12px;
+            margin-right: 10px;
+            margin-top: 10px;
+            em {
+                cursor: pointer;
+                color: #1675be;
+            }
+        }
+        .login_footer {
+            margin-bottom: 2px;
+            width: 317px;
+            padding-left: 15px;
+            text-align: left;
+            background-color: #FFFFFF;
+            padding-top: 15px;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            height: 100px;
+            clear: both;
+            .text {
+                display: block;
+                color: #999999;
+                line-height: 30px;
+                font-size: 12px;
+                .saoma {
+                    color: #1675be;
+                    text-decoration: none;
+                }
+            }
+            .xinlang {
+                float: left;
+                width: 50px;
+                height: 50px;
+                margin-right: 24px;
+                background: url(https://i0.ulecdn.com/i/login/2015/0415/links_icon.png) no-repeat;
+                background-position: 0 0;
+                display: inline-block;
+            }
+            .qq {
+                float: left;
+                height: 50px;
+                width: 50px;
+                margin-right: 24px;
+                background: url(https://i0.ulecdn.com/i/login/2015/0415/links_icon.png) no-repeat;
+                background-position: -59px 0;
+                display: inline-block;
+            }
+            .tom {
+                float: left;
+                width: 70px;
+                height: 50px;
+                margin-right: 24px;
+                background: url(https://i0.ulecdn.com/i/login/2015/0415/links_icon.png) no-repeat;
+                background-position: -118px 0;
+                display: inline-block;
+            }
+            .weixin {
+                background: none !important;
+                float: left;
+                margin: 0;
+                padding: 0;
+                width: 50px;
+                height: 50px;
+                line-height: 18px;
+                text-align: center;
+                font-size: 12px;
+                color: #666;
+                opacity: 0.7;
+                display: block;
+                text-decoration: none;
+                img {
+                    width: 37px;
+                    height: 32px;
+                    margin: 0 auto;
+                    border: 0;
+                    display: block;
+                    border-radius: 3px;
+                    line-height: 18px;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #666;
+                }
+                b {
+                    margin: 0 auto;
+                    padding: 0;
+                    width: 100%;
+                    height: 18px;
+                    line-height: 18px;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #666;
+                    display: block;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    height: 300px;
+    @extend %main_width;
+    height: 437px;
+    background-color: #fff;
+    font-size: 12px;
+    padding: 20px 0;
+}

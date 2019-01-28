@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAC;EACE,KAAK,EAAC,IAAI;;AACX,OAAO;EACJ,KAAK,EAAC,IAAI;;;AAEf,MAAM;EACH,KAAK,EAAC,KAAK;;AACZ,cAAK;EACF,KAAK,EAAC,IAAI;;AACb,kCAAY;EACT,MAAM,EAAC,IAAI;;;AAEhB,KAAK;EAEA,YAAK,EAAC,KAAK;EACX,YAAK,EAAC,GAAG;;AACZ,sBAAc;EACX,OAAO,EAAC,2BAA2B;;AACtC,cAAU;EACP,OAAO,EAAC,qBAAqB;;;AAElC,aAAa;EACV,WAAW,EAAC,OAAO;;AACpB,wDAAkB;EACf,WAAW,EAAC,IAAI",
+"sources": ["../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/parent_ref.sass"],
+"names": [],
+"file": "parent_ref.css"
+}

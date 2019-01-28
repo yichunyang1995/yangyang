@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;OAAM;EAEJ,MAAM,EAAE,IAAI;;AACZ;WAAG;EACD,KAAK,EAAE,KAAK;;AAGV;;;mBAAI;EACF,KAAK,EAAE,IAAI;;;AAKjB;;;;;;;;eAAW;EAIN,WAAM,EAAC,IAAI;EACb,YAAY,EAAC,GAAG;EAChB,OAAO,EAAC,KAAK",
+"sources": ["../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/multiline.sass"],
+"names": [],
+"file": "multiline.css"
+}

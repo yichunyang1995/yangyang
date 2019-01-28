@@ -1,0 +1,99 @@
+@charset "utf-8";
+body {
+    color: #666;
+    background-color: #f7f7f7;
+    font-family: "microsoft yahei";
+}
+
+$box_width:1200px;
+$box_main_width:100%;
+$height:100px;
+$box_color:#fff;
+@mixin box($w:1px, $s:solid, $c:#333) {
+    border: $w $s $c;
+}
+
+%main_width {
+    width: $box_main_width;
+    height: $height;
+    background: $box_color;
+}
+
+%box_width {
+    width: $box_width;
+    height: $height;
+    background: $box_color;
+    // margin: 10px auto 0;
+}
+
+%ullist {
+    list-style: none;
+}
+
+%astyle {
+    text-decoration: none;
+}
+
+.layout {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    .footer_banner {
+        width: 100%;
+        height: 56px;
+        padding: 17px 0;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        background: url(http://i0.ulecdn.com/ule/header/images/footer1603.png?t=1) no-repeat;
+        background-position: 0 -125px;
+    }
+    .footer_content {
+        width: 100%;
+        height: 205px;
+        padding: 10px 0 20px;
+        overflow: hidden;
+        border-bottom: 1px solid #ccc;
+        ul {
+            width: 1300px;
+            height: 205px;
+            li {
+                float: left;
+                width: 120px;
+                padding-right: 96px;
+                padding-top: 5px;
+                h4 {
+                    width: 100%;
+                    height: 21px;
+                    border-bottom: 1px solid #ccc;
+                    margin-bottom: 5px;
+                }
+                p {
+                    width: 100%;
+                    a {
+                        display: block;
+                        height: 22px;
+                        line-height: 22px;
+                        color: #888;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .footer_license {
+        width: 100%;
+        padding-top: 15px;
+        // border-top: 1px solid #888;
+        color: #888;
+        p {
+            padding-top: 6px;
+        }
+    }
+    .footer_ad {
+        width: 100%;
+        height: 34px;
+        margin-top: 15px;
+        background: url(http://i0.ulecdn.com/ule/header/images/footer1603.png?t=1) no-repeat;
+        background-position: 0 0;
+    }
+}

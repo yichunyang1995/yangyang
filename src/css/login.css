@@ -1,0 +1,274 @@
+body {
+  color: #666;
+  background-color: #f7f7f7;
+  font-family: "microsoft yahei";
+}
+
+.top, .header_main, .footer {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+}
+
+.top {
+  background-color: #f7f7f7;
+  padding-top: 6px;
+  height: 29px;
+  position: relative;
+  z-index: 902;
+  border-bottom: 1px solid #ededed;
+  font-size: 12px;
+}
+
+.header_main {
+  height: 80px;
+  padding-top: 12px;
+  padding-bottom: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.header_main .header_logo {
+  display: block;
+  width: 1200px;
+  height: 99px;
+  top: 0px;
+  position: absolute;
+  left: -300px;
+  float: left;
+  background: url(http://i0.ulecdn.com/ule/header/images/logo.png) no-repeat center;
+}
+
+.ad {
+  width: 100%;
+  height: 495px;
+  position: relative;
+  border-top: 4px solid #a71b1c;
+}
+.ad .a1 {
+  display: block;
+  height: 100%;
+  background: url(https://pic1.ulecdn.com/item/user_0102/desc20181115/33b4fc26f1f46b8b_-1x-1.png) center center no-repeat;
+}
+.ad .login {
+  display: block;
+  width: 330px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 10px;
+  right: 20%;
+  z-index: 3;
+}
+.ad .login h1 {
+  color: #000;
+  margin: 20px 0 26px 20px;
+}
+.ad .login .logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 70px;
+  height: 70px;
+  background: url(https://i0.ulecdn.com/i/login/2015/0925/icon_zjl_001.png)--90px 0 no-repeat;
+}
+.ad .login .content {
+  height: 62px;
+  width: 100%;
+  color: #666;
+  position: relative;
+}
+.ad .login .content i {
+  background: url(https://i0.ulecdn.com/i/login/2015/0415/login_icons.png) no-repeat;
+  background-position: 0 -85px;
+  width: 23px;
+  height: 38px;
+  position: absolute;
+  left: 21px;
+  top: 0;
+}
+.ad .login .content .input1 {
+  width: 277px;
+  height: 18px;
+  line-height: 18px;
+  padding: 10px 0 10px 23px;
+  border: 1px solid #cacaca;
+  font-size: 14px;
+  margin: 0 0 0 15px;
+  float: left;
+  background: none;
+}
+.ad .login .pass {
+  height: 60px;
+  position: relative;
+  color: #666;
+}
+.ad .login .pass i {
+  position: absolute;
+  display: block;
+  height: 38px;
+  width: 23px;
+  left: 21px;
+  top: 0;
+  background: url(https://i0.ulecdn.com/i/login/2015/0415/login_icons.png) no-repeat;
+  background-position: 0 -117px;
+}
+.ad .login .pass .input2 {
+  width: 277px;
+  height: 18px;
+  line-height: 18px;
+  padding: 10px 0 10px 23px;
+  border: 1px solid #cacaca;
+  font-size: 14px;
+  margin: 0 0 0 15px;
+}
+.ad .login .checked {
+  padding: 0 0 20px 12px;
+  position: relative;
+  width: 309px;
+  float: left;
+}
+.ad .login .checked .input3 {
+  margin: 3px 3px 3px 4px;
+  float: left;
+}
+.ad .login .checked label {
+  color: #656567;
+  line-height: 20px;
+  font-size: 12px;
+  float: left;
+}
+.ad .login .checked i {
+  height: 12px;
+  width: 12px;
+  text-indent: -999em;
+  overflow: hidden;
+  background: url(https://i0.ulecdn.com/i/login/2013/0529/icons.png) no-repeat -29px -36px;
+  float: left;
+  margin: 4px 0 0 4px;
+  cursor: pointer;
+}
+.ad .login .checked .a2 {
+  float: right;
+  font-size: 12px;
+  text-decoration: none;
+  background: none;
+}
+.ad .login .input4 {
+  background-color: #d10208;
+  height: 38px;
+  width: 309px;
+  border: 2px solid #d10208;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+.ad .login .span {
+  float: right;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.ad .login .span em {
+  cursor: pointer;
+  color: #1675be;
+}
+.ad .login .login_footer {
+  margin-bottom: 2px;
+  width: 317px;
+  padding-left: 15px;
+  text-align: left;
+  background-color: #FFFFFF;
+  padding-top: 15px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 100px;
+  clear: both;
+}
+.ad .login .login_footer .text {
+  display: block;
+  color: #999999;
+  line-height: 30px;
+  font-size: 12px;
+}
+.ad .login .login_footer .text .saoma {
+  color: #1675be;
+  text-decoration: none;
+}
+.ad .login .login_footer .xinlang {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 24px;
+  background: url(https://i0.ulecdn.com/i/login/2015/0415/links_icon.png) no-repeat;
+  background-position: 0 0;
+  display: inline-block;
+}
+.ad .login .login_footer .qq {
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-right: 24px;
+  background: url(https://i0.ulecdn.com/i/login/2015/0415/links_icon.png) no-repeat;
+  background-position: -59px 0;
+  display: inline-block;
+}
+.ad .login .login_footer .tom {
+  float: left;
+  width: 70px;
+  height: 50px;
+  margin-right: 24px;
+  background: url(https://i0.ulecdn.com/i/login/2015/0415/links_icon.png) no-repeat;
+  background-position: -118px 0;
+  display: inline-block;
+}
+.ad .login .login_footer .weixin {
+  background: none !important;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  opacity: 0.7;
+  display: block;
+  text-decoration: none;
+}
+.ad .login .login_footer .weixin img {
+  width: 37px;
+  height: 32px;
+  margin: 0 auto;
+  border: 0;
+  display: block;
+  border-radius: 3px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+.ad .login .login_footer .weixin b {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  display: block;
+  font-weight: 400;
+}
+
+.footer {
+  height: 300px;
+  height: 437px;
+  background-color: #fff;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+/*# sourceMappingURL=login.css.map */

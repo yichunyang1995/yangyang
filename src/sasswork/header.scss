@@ -1,0 +1,248 @@
+@charset "utf-8";
+body {
+    color: #666;
+    background-color: #f7f7f7;
+    font-family: "microsoft yahei";
+}
+
+$box_width:1200px;
+$box_main_width:100%;
+$height:100px;
+$box_color:#fff;
+@mixin box($w:1px, $s:solid, $c:#333) {
+    border: $w $s $c;
+}
+
+%main_width {
+    width: $box_main_width;
+    height: $height;
+    background: $box_color;
+}
+
+%box_width {
+    width: $box_width;
+    height: $height;
+    background: $box_color;
+    // margin: 10px auto 0;
+}
+
+%ullist {
+    list-style: none;
+}
+
+%astyle {
+    text-decoration: none;
+}
+
+// .top_1 {
+//     width: $box_width;
+//     margin-left: auto;
+//     margin-right: auto;
+//     height: 22px;
+.top1 {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 22px;
+    .ulleft {
+        height: 20px;
+        @extend %ullist;
+        float: left !important;
+        .ulleft_li {
+            float: left;
+            line-height: 22px;
+            height: 27px;
+            .ulleft_li_a {
+                background: url(http://i0.ulecdn.com/ule/header/images/ico_return-home.png) no-repeat left center;
+                padding-left: 20px;
+                @extend %astyle;
+                color: #666;
+            }
+        }
+    }
+    .ulright {
+        height: 22px;
+        float: right !important;
+        @extend %ullist;
+        .welcome {
+            padding-right: 0;
+            float: left;
+            padding: 0 12px;
+            line-height: 22px;
+            height: 27px;
+            // .blue {
+            //     color: #06c;
+            //     @extend %astyle;
+            //     cursor: pointer;
+            // }
+            span {
+                display: inline;
+            }
+        }
+        .login {
+            float: left;
+            padding: 0 12px;
+            line-height: 22px;
+            height: 27px;
+            .blue {
+                color: #06c;
+                cursor: pointer;
+                @extend %astyle;
+            }
+        }
+        // .gonggong {
+        //     background-position: -150px 5px;
+        // }
+        .ulright_1 {
+            z-index: 2;
+            width: 58px;
+            height: 27px;
+            line-height: 22px;
+            position: relative;
+            float: left;
+            // color: #666;
+            padding: 0 12px;
+            // border: 1px solid;
+            .ulright_1_a {
+                white-space: nowrap;
+                padding-right: 10px;
+                background: url(http://i0.ulecdn.com/ule/header/images/header_1407.png) no-repeat;
+                background-position: right 2px;
+                @extend %astyle;
+                color: #666;
+            }
+        }
+        .ulright_2 {
+            z-index: 2;
+            width: 58px;
+            position: relative;
+            background-position: -150px 5px;
+            float: left;
+            padding: 0 10px;
+            padding-left: 26px;
+            line-height: 22px;
+            height: 27px;
+            .phone {
+                width: 16px;
+                height: 16px;
+                display: block;
+                position: absolute;
+                left: 10px;
+                top: 4px;
+                background: url(http://i0.ulecdn.com/ule/header/images/header_1407.png) no-repeat;
+            }
+            .a_1 {
+                white-space: nowrap;
+                background-position: right 2px;
+                padding-right: 10px;
+                @extend %astyle;
+                color: #666;
+                background: url(http://i0.ulecdn.com/ule/header/images/header_1407.png) no-repeat;
+                background-position: right 2px;
+            }
+        }
+        .ulright_2 {
+            .icon_list {
+                width: 16px;
+                height: 16px;
+                display: block;
+                position: absolute;
+                left: 10px;
+                top: 4px;
+                background: url(http://i0.ulecdn.com/ule/header/images/header_1407.png) no-repeat;
+                background-position: -319px 0;
+            }
+        }
+        .ulright_3 {
+            z-index: 2;
+            width: 58px;
+            height: 27px;
+            line-height: 22px;
+            position: relative;
+            float: left;
+            // color: #666;
+            padding: 0 7px;
+            margin-left: 20px;
+        }
+        .ulright_2 {
+            .call {
+                width: 16px;
+                height: 16px;
+                display: block;
+                position: absolute;
+                left: 10px;
+                top: 4px;
+                background: url(http://i0.ulecdn.com/ule/header/images/header_1407.png) no-repeat;
+                background-position: -260px -25px;
+                padding-right: 3px;
+            }
+            .a_2 {
+                white-space: nowrap;
+                background-position: right 2px;
+                padding-right: 10px;
+                @extend %astyle;
+                color: #a71b1b;
+                // background: url(http://i0.ulecdn.com/ule/header/images/header_1407.png) no-repeat;
+                background-position: right 2px;
+            }
+        }
+    }
+    .ulright_1 {
+        ul {
+            width: 58px;
+            display: none;
+            height: auto;
+            position: absolute;
+            top: 22px;
+            left: -1px;
+            padding: 5px 0;
+            border: solid 1px #d9d9d9;
+            border-top: 0;
+            background-color: #fff;
+            list-style: none;
+            li {
+                height: 28px;
+                line-height: 28px;
+                padding: 0;
+                float: none;
+                overflow: hidden;
+                a {
+                    display: block;
+                    background-color: #fff;
+                    padding-left: 3px;
+                    white-space: nowrap;
+                    @extend %astyle;
+                    color: #666;
+                }
+            }
+        }
+    }
+    .ulright_2 {
+        ul {
+            width: 180px;
+            left: 50%;
+            margin-left: -90px;
+            border-radius: 8px;
+            padding: 10px 0;
+            display: none;
+            height: auto;
+            position: absolute;
+            top: 22px;
+            border: solid 1px #d9d9d9;
+            border-top: 0;
+            background-color: #fff;
+            li {
+                width: 158px;
+                height: 163px;
+                margin: 0 auto;
+                line-height: 28px;
+                padding: 0;
+                float: none;
+                overflow: hidden;
+                img {
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.top, .header, .nav {
+  width: 100%;
+  height: 100px;
+  background: #abcdef;
+}
+
+.section_1, .section_2, .section_3, .section_4, .section_5, .section_6, .section_7, .section_8, .section_9 {
+  width: 1190px;
+  height: 100px;
+  background: #abcdef;
+  margin: 10px auto 0;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+.top {
+  height: 35px;
+  background: #f5f5f5;
+}
+
+.nav {
+  height: 30px;
+  background-image: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+}
+
+.ad {
+  width: 1190px;
+  margin: 10px auto 0;
+}
+
+/*# sourceMappingURL=style.css.map */

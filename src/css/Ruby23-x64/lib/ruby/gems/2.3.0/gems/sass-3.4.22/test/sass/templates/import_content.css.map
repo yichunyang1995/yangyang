@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,CAAC;ECED,CAAC,EAAE,CAAC",
+"sources": ["../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/_imported_content.sass","../../../../../../../../../../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/test/sass/templates/import_content.sass"],
+"names": [],
+"file": "import_content.css"
+}
